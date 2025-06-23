@@ -32,17 +32,16 @@ Verify IP via:
 bash
 ip a
 
-```📜 Script Overview
+```
+📜 Script Overview
 autoscale_master.ps1
 Main script to monitor CPU and scale second VM
 
 autoscale_log.txt
 Timestamped log of actions taken
 ```
-```📊 Logic Flow
-plaintext
-Copy
-Edit
+```
+📊 Logic Flow
 [Host (PowerShell)] 
      |
      | SSH
