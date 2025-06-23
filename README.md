@@ -29,15 +29,17 @@ A lightweight PowerShell-based automation script to simulate real-world auto-sca
 - **Adapter 2**: Host-Only Adapter (e.g., `192.168.56.x` series)
 
 Verify IP via:
-```bash
+bash
 ip a
-📜 Script Overview
+
+```📜 Script Overview
 autoscale_master.ps1
 Main script to monitor CPU and scale second VM
 
 autoscale_log.txt
 Timestamped log of actions taken
-📊 Logic Flow
+```
+```📊 Logic Flow
 plaintext
 Copy
 Edit
@@ -51,6 +53,7 @@ Edit
      | Load < 30% → Stop Ubuntu-2
      v
 [VBoxManage Actions]
+```
 🧪 Simulate High CPU Load
 Run this inside Ubuntu-1:
 
