@@ -1,6 +1,6 @@
 # 🖥️ VM AutoScaler – CPU-Based Virtual Machine Control using PowerShell
 
-A lightweight PowerShell-based automation script to simulate real-world auto-scaling of VMs based on CPU load. This project remotely monitors CPU usage of one VM (Ubuntu-1) and automatically starts/stops another VM (Ubuntu-2) depending on the load threshold.
+This project remotely monitors CPU usage of one VM (Ubuntu-1) and automatically starts/stops another VM (Ubuntu-2) depending on the load threshold.
 
 ---
 
