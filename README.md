@@ -55,61 +55,23 @@ Timestamped log of actions taken
 ```
 🧪 Simulate High CPU Load
 Run this inside Ubuntu-1:
-
-bash
-Copy
-Edit
+```
 sudo apt install stress
 stress --cpu 4 --timeout 60
+```
 🔁 Setup Auto Run (Task Scheduler)
 Open Task Scheduler → Create Task
 
 Trigger: On schedule (e.g., every 5 mins)
 
 Action:
-
-plaintext
-Copy
-Edit
 powershell.exe -ExecutionPolicy Bypass -File "C:\VMScaler\autoscale_master.ps1"
 Save & Enable
-
-📷 Screenshots
-CPU Monitoring Output
-
-Ubuntu-2 Start Confirmation
-
-Log Output in PowerShell
-(See screenshots/ folder)
-
+```
 📁 Folder Structure
-Copy
-Edit
 VMScaler/
 │
 ├── autoscale_master.ps1
 ├── autoscale_log.txt
-├── README.md
-├── screenshots/
-└── docs/
-📢 Author
-Deepayan Das
-Domain: Virtualization Engineering
-🔗 LinkedIn (update with actual profile)
-
-📄 License
-This project is licensed under the MIT License.
-
-🔖 Tags
-#PowerShell #VirtualBox #Automation #Virtualization #WindowsScripts #SSH #DevOps #ProjectShowcase
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you’d like:
-- A **`docs/`** folder with PDF export
-- A **badge section** (for GitHub stars, license, etc.)
-- Help setting this up as a **template repo** for showcasing in interviews or posts
+└── README.md
+```
