@@ -1,0 +1,14 @@
+2025-06-23 15:50:36 - Low CPU (0.9%) - Stopped Ubuntu-2
+2025-06-23 15:52:29 - Low CPU (0%) - Stopped Ubuntu-2
+2025-06-23 15:53:21 - Low CPU (1.5%) - Stopped Ubuntu-2
+2025-06-23 15:53:25 - Low CPU (0%) - Stopped Ubuntu-2
+2025-06-23 15:55:13 - Low CPU (0%) - Stopped Ubuntu-2
+2025-06-23 16:01:48 - High CPU (100%) - Started Ubuntu-2
+2025-06-23 16:06:24 - 💤 Low CPU (1.4%) - Stopped Ubuntu-2
+2025-06-23 16:06:50 - 🚀 High CPU (66.6%) - Started Ubuntu-2
+2025-06-23 16:09:13 - 💤 Low CPU (6.6%) - Stopped Ubuntu-2
+2025-06-23 16:09:18 - 💤 Low CPU (1.8%) - Stopped Ubuntu-2
+2025-06-23 16:17:08 - CPU load normal (44.2%). No action taken.
+2025-06-23 16:18:11 - High CPU load detected (100%). Attempted to start Ubuntu-2.
+2025-06-23 16:20:10 - ERROR - Could not parse CPU load. Output: %Cpu(s):100.0 us,  0.0 sy,  0.0 ni,  0.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+2025-06-23 16:20:19 - High CPU load detected (83.3%). Attempted to start Ubuntu-2.
